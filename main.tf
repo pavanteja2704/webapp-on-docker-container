@@ -8,7 +8,7 @@ resource "google_compute_instance" "default" {
  
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-11"// RHEL 9 image
+      image = "debian-cloud/debian-11"
       size  = 50 // 50 GB boot disk
     }
   }
