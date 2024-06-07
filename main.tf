@@ -1,6 +1,6 @@
 # Create a VM instance
 resource "google_compute_instance" "default" {
-  name         = "apache-vm"
+  name         = "webapp-vm"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
 
