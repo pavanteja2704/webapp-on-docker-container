@@ -1,7 +1,7 @@
 
 steps:
    - id: 'branch name'
-     name:  'pavan'
+     name:  'alphine'
      entrypoint: 'sh'
      args:
      - '-c'
