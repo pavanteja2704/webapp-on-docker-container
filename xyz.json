@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "hardy-binder-411706",
+    "private_key_id": "4faf00fb151c0bc6ac2c60d7cb9dc67cbc367161",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCuuxwvjH50M4wW\ndBH8fts+Oqf21AzIqLZ/QwWQqN9+qdKUYsuxMwqBlhQ1hzQ78ZtjQqccrndiPMFI\nDgB5cGCHABzJe5baLiyKr7jNJpGFlW5OytPFmQN2e8xX5f/oCwA9oXw3+QNp7nZo\nn5kgxO3xe2tdlf6Qv3GuauesAIY9OneLFtp/gk+ojOSq9FV5TzkpSpq+3voZ6Vt9\n7cBK8/Q2y0zsFhcnGHjcX8DbkFdQTys2uGub/d1d4r67PZBxODl34PdmKbyHfy3d\nHRLsypDqWxMIMz8LjUlDxpBEhCXjeJVIOAhWLvDWf3dX9a1n6GLu9bW+8qMR2LsM\nW0X5TKHjAgMBAAECggEAGJ1AKmHtcGYl47CEgMrIDNCg17Bl1Us7BjDFUxcPAN4L\nIvR17aebNnJotLpap9/FvCpoCy4ioDf0dwzjO+LnnizsYTpj9Pv7MgBGFWmg/K32\nb5VlVsPS4o6BqezlwLpIADvu7p2ewaiiN+PVDkeKSMcnnUk40WA+s0uDs6MRRgTq\nD6hGINNAD3MQrzxW1FZ/7Mv1Qc0BqfYozCNLpXp9ChVqatJN+hVeaf3vNoQqjAPR\nJtMxtbzQvBvGQCVGfHMNIhs3FrVNVDX9ED9Lm7HPvQ64MkLFUiSWf6sVkCob1YMt\nHaECNIFbWG9s+blnsk22YUpX6LMRspCGLo8Z8XE3dQKBgQDrIjBEb/5D3Qmdw0SO\nmqi6HGtVQL1S6ZshcihSVgjayBwOaOKlhlrrCwd3wP4kLbae+cQoIIwZyfvinKAX\nLjXy84t0YA65WS//v4N8295l3Ap/YfK1Xc2fK+mWNxLxTaFlmyAarviTa6Y5K1ph\n36OuNhwN8zDdIc1BpKt2LDhPFQKBgQC+PK6USt04tewUhHiboDflXgBpMQAL3WVP\nBimoaCERqV2CBsBFmN1yed91nESq1jhCJYNxKJpXelJIJAH6mRtYTQE25ncI/8Cl\nD/0lpKpkVFdapxlHw6qeY5gCC6PBc1mQqNoiSY0FyQOLz8liENBUtuhYq24TXhmo\n/GUXRGErFwKBgQCd3eFsQYkERUZsjqrb18jK08PYhFPYdBF8nimmRi9BvLLhldf9\n7DvkrQ4BgCjhX3PKPsVNb7TAp9Ue66ushJEiIhQSOWAJX3ETk6CTVwd1egvuRHPx\nAx7H7HKzMRzduBJRppoicDFiwRbkMVBIgB9kGt4xG4NGJKirlwSrnbrclQKBgHtK\nhLKjGmCotspNWIUz/0Xt+EI0eZ027XObwN/eLKBvraSZj38LpWmNxt9IWdCGaYul\nGFz8PZs4MZ+DhqzNEcXWklTsZHU2m7nedOgyoiPH7Z1Y8q9qBmgEj/2zYXv8sC1q\n4YSbOoRnVJ8GGbQuxXZB3K+q2vo+YE7+1N2ReZAdAoGAeCbTfTHZw8mxXrQKFb5N\njOv0u/SME2auDPdwYnz6K3A8URwAKNhWcrLUbc2NPnlWB/asGMxQUp50u/qqBxnA\nNeEltaO+VkKaPRnBLKFioQvG9pVgcs49ortH7rigmeRVMCH9YsC8yZTz9AH+i2bM\nz8uSRUTpHc6SayanTn6NXtg=\n-----END PRIVATE KEY-----\n",
+    "client_email": "jenkins-keys@hardy-binder-411706.iam.gserviceaccount.com",
+    "client_id": "118435518625191456553",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/jenkins-keys%40hardy-binder-411706.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
