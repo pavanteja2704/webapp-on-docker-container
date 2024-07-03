@@ -1,6 +1,6 @@
 provider "google" {
   region = "us-central1"
-  project = "charged-gravity-425405-j6"
+  project = "pavan-team"
   credentials = "xyz.json"
 }
  
