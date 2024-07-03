@@ -1,6 +1,6 @@
 provider "google" {
   region = "us-east1"
-  project = "hardy-binder-411706"
+  project = "rohit-project-417811"
   credentials = file("xyz.json")
 }
  
