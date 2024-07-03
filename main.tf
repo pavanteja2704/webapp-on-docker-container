@@ -2,7 +2,7 @@
 resource "google_compute_instance" "default" {
   name         = "webapp-vm"
   machine_type = "e2-medium"
-  zone         = "us-central1-a"
+  zone         = "us-east1-b"
 
   tags = ["http-server"]
  
@@ -19,21 +19,7 @@ resource "google_compute_instance" "default" {
     }
   }
     metadata_startup_script = file("./app.sh")
-}
-# Create a firewall rule to allow HTTP traffic
-resource "google_compute_firewall" "fire" {
-  name    = "allow-http"
-  network = "default"
- 
-  allow {
-    protocol = "tcp"
-    ports    = ["80"]
-  }
- 
-  target_tags = ["http-server"]
-  source_tags = ["webserver"]
-}
- 
+} 
 # Output the external IP address of the instance
 output "instance_ip" {
   value = google_compute_instance.default.network_interface[0].access_config[0].nat_ip
