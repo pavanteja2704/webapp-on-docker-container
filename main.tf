@@ -1,6 +1,6 @@
 # Create a VM instance
-resource "google_compute_instance" "default" {
-  name         = "webapp-vm"
+resource "google_compute_instance" "vm-1" {
+  name         = "webapp"
   machine_type = "e2-medium"
   zone         = "northamerica-northeast2-c"
 
