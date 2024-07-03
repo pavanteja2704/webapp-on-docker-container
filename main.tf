@@ -2,7 +2,7 @@
 resource "google_compute_instance" "default" {
   name         = "webapp-vm"
   machine_type = "e2-medium"
-  zone         = "northamerica-northeast2-b"
+  zone         = "northamerica-northeast2-c"
 
   tags = ["http-server"]
  
