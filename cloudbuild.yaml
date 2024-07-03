@@ -22,11 +22,3 @@ steps:
     - '-c'
     - |
       terraform apply --auto-approve 
-
-  - id: 'tf refresh'  # Optional
-    name: 'hashicorp/terraform:latest'
-    entrypoint: 'sh'
-    args:
-    - '-c'
-    - |
-      terraform refresh
