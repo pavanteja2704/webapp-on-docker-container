@@ -18,7 +18,7 @@ resource "google_compute_instance" "web" {
       // Include any access configuration if needed
     }
   }
-#metadata_startup_script = file("./install_jenkins.sh")
+  #metadata_startup_script = file("./app.sh")
   metadata_startup_script = <<-EOT
     #!/bin/bash
     #install docker
