@@ -5,7 +5,7 @@ steps:
     args:
     - '-c'
     - |
-      terraform init -backend-config=path/to/backend.tfvars
+      terraform init 
 
   - id: 'tf plan'
     name: 'hashicorp/terraform:latest'
