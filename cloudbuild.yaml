@@ -1,44 +1,32 @@
-
 steps:
-   - id: 'branch name'
-     name:  'pavan'
-     entrypoint: 'sh'
-     args:
-     - '-c'
-     - |
-        echo"*************"
-         echo "$BRANCH_NAME"
-         echo "************"
+  - id: 'tf init'
+    name: 'hashicorp/terraform:latest'
+    entrypoint: 'sh'
+    args:
+    - '-c'
+    - |
+      terraform init -backend-config=path/to/backend.tfvars
 
-   - id: 'tf init'
-     name: 'hashicorp/terraform:latest'
-     entrypoint: 'sh'
-     args:
-     - '-c'
-     - | 
-       terraform init
+  - id: 'tf plan'
+    name: 'hashicorp/terraform:latest'
+    entrypoint: 'sh'
+    args:
+    - '-c'
+    - |
+      terraform plan
 
-   - id: 'tf plan'
-     name: 'hashicorp/terraform:latest'
-     entrypoint: 'sh'
-     args:
-     - '-c'
-     - | 
-        terraform plan
+  - id: 'tf apply'  # Manual approval recommended
+    name: 'hashicorp/terraform:latest'
+    entrypoint: 'sh'
+    args:
+    - '-c'
+    - |
+      terraform apply
 
-   - id: 'tf apply'
-     name: 'hashicorp/terraform:latest'
-     entrypoint: 'sh'
-     args:
-     - '-c'
-     - | 
-        terraform apply --auto-approve
-
-   - id: 'tf refresh'
-     name: 'hashicorp/terraform:latest'
-     entrypoint: 'sh'
-     args:
-     - '-c'
-     - | 
-        terraform refresh 
-         
+  - id: 'tf refresh'  # Optional
+    name: 'hashicorp/terraform:latest'
+    entrypoint: 'sh'
+    args:
+    - '-c'
+    - |
+      terraform refresh
